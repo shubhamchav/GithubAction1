@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Variable Print 
-      - run: echo "${{ vars.VARIABLETOKEN }}"
+        run: echo "${{ vars.VARIABLETOKEN }}"
