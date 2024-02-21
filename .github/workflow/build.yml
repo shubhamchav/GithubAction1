@@ -1,0 +1,13 @@
+name: My Workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name : Variable Print 
+      - run: echo "${{ vars.VARIABLETOKEN }}"
